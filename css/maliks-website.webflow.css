@@ -98,7 +98,7 @@ a {
 }
 
 .menu-button.w--open {
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .section {
@@ -628,7 +628,7 @@ a {
   z-index: 1;
   display: none;
   width: 100%;
-  height: 90vh;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 0;
 }
@@ -984,9 +984,6 @@ a {
     padding-right: 20px;
     padding-left: 20px;
   }
-  .navbar {
-    height: auto;
-  }
   .nav-menu {
     height: auto;
   }
@@ -1002,17 +999,17 @@ a {
   }
   .hero-wrapper {
     height: auto;
+    padding-top: 120px;
   }
   .malik-hero-image {
-    width: 154px;
+    width: 140px;
   }
   .hero-content-wrapper {
-    padding-top: 92px;
     -webkit-box-align: start;
     -webkit-align-items: start;
     -ms-flex-align: start;
     align-items: start;
-    grid-row-gap: 30px;
+    grid-row-gap: 20px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
@@ -1058,7 +1055,9 @@ a {
     background-color: #fff;
   }
   .slider.assignment-card {
-    height: 470px;
+    height: auto;
+    max-height: 520px;
+    min-height: 470px;
     padding-bottom: 70px;
   }
   .arrow-wrapper.right {
@@ -1162,6 +1161,12 @@ a {
   .nav-social-link {
     padding: 10px;
   }
+  .nav-screen {
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+  }
   .line-separator {
     display: block;
     width: 100%;
@@ -1172,7 +1177,8 @@ a {
   }
   .image-bg {
     display: block;
-    height: 35vh;
+    height: 160px;
+    margin-top: 35px;
     background-position: 50% 70%;
     background-size: 100%;
   }
