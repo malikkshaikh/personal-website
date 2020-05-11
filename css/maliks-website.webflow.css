@@ -752,10 +752,7 @@ a {
   right: 0%;
   bottom: 0%;
   z-index: 100;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1168,7 +1165,7 @@ a {
   }
   .image-bg {
     display: block;
-    height: 30vh;
+    height: 35vh;
     background-position: 50% 70%;
     background-size: 100%;
   }
