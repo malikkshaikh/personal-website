@@ -999,6 +999,7 @@ a {
   .hero-wrapper {
     height: auto;
     padding-top: 120px;
+    padding-bottom: 50px;
   }
   .malik-hero-image {
     width: 180px;
