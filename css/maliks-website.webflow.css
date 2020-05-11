@@ -1056,7 +1056,6 @@ a {
   }
   .slider.assignment-card {
     height: auto;
-    max-height: 520px;
     min-height: 470px;
     padding-bottom: 70px;
   }
@@ -1074,7 +1073,7 @@ a {
     bottom: 0%;
   }
   .slide {
-    height: 100%;
+    height: 468px;
     padding: 0px;
   }
   .mask {
